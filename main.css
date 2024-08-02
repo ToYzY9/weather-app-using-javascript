@@ -6,6 +6,7 @@
 }
 body {
     background-color: #222;
+    min-height: 100vh;
 }
 #card {
     width: 90%;
@@ -76,7 +77,21 @@ body {
     width: 40px;
     margin-right: 10px;
 }
-.humidity, .wind{
+.humidity,
+.wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: orangered;
+    font-size: 18px;
 }
